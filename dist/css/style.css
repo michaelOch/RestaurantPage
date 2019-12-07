@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tab-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.header-wrapper {
+    background-image: url(../img/table-in-vintage-restaurant-6267.jpg);
+    height: 650px;
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: overlay;
+    background-color: #0009;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.header-wrapper h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #6897bb;
+    text-align: center;
+}
+
+.header-wrapper p {
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+}
+
+.img-height {
+    height: 200px;
+}
+
+.contact-card {
+    margin-bottom: 6rem;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
